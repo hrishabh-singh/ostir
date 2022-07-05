@@ -124,7 +124,9 @@ class OSTIRFactory:
                                         "UUG": -0.0435, "CTG": -0.03406, "CUG": -0.03406}  # hybridization to CAT
         self.auto_dangles = True
         self.dangles_default = "all"
-        self.temp = 37.0
+        # self.temp = 37.0
+        # changing this to a higher temperature
+        self.temp = 50.0
         self.optimal_spacing = 5  # aligned spacing
 
         # From OSTIR calibration using Salis2009 data. See calibration directory for procedure
